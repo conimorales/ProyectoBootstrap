@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Olivia Ros | Food Blogger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Css de bootstrap minificado -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      crossorigin="anonymous"
+    />
+    <!--Mi estilo Css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <!--centrado-->
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="assets/img/logo.png" alt="Logo de Olivia Ros" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Acerca de mí</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Trabajos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero text-light text-right pt-5 mt-5">
+      <div class="container">
+        <h1 class="display-1 font-weight-bold my-5">
+          Comidas del Fin del Mundo
+        </h1>
+        <p class="my-5">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum ut
+          nihil nobis architecto aliquam? Dignissimos esse facere quas quaerat
+          consequatur sit necessitatibus accusantium ullam. Nobis quaerat ipsa
+          debitis laudantium nemo.
+        </p>
+
+        <a href="#work" class="btn btn-outline-info bt-lg mr-4">Trabajos</a>
+        <a href="#contact" class="btn btn-info bt-lg mr-4"> Contacto</a>
+      </div>
+    </header>
+
+    <div class="container my-5 py-3">
+      <div class="row">
+        <div class="col-4 p-4 text-right">
+          <h2 class="font-weight-bold">
+            Me has visto en:
+          </h2>
+        </div>
+        <div class="col-8 bg-secondary text-white rounded pt-4 pb-5">
+          <!--CAROUSEL-->
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+            </ol>
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-3">
+                    <i
+                      class="fab fa-codepen fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Codepen"
+                    >
+                    </i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-apper fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Apper"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-angrycreative fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="AngryCreative"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-google fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Google"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-3">
+                    <i
+                      class="fab fa-500px fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="500px"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-apple fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Apple"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-aviato fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Aviato"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-d-and-d fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="D and D"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="about" class="container text-center my-5">
+      <h2 class="display-3 font-weight-bold my-4">Acerca de mí</h2>
+      <p class="my-4">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit optio
+        praesentium libero officiis consequuntur ad ratione fuga, sequi labore
+        nesciunt facilis omnis quod saepe voluptates. Atque doloremque aut
+        inventore beatae?
+      </p>
+
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fas fa-camera-retro fa-3x my-3"></i>
+          <h3 class="my-3">Fotógrafa de comida</h3>
+          <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            ratione minima explicabo tempore, adipisci soluta, deleniti iste
+            exercitationem ipsam fugit placeat pariatur quod. Illum dolorem
+            asperiores corporis mollitia. Temporibus, quisquam.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-bullhorn fa-3x my-3"></i>
+          <h3 class="my-3">Crítica culinaria</h3>
+          <p class="my-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo,
+            illo! Ipsa, dolores! Sunt dolor excepturi ab nesciunt ea, neque,
+            officia numquam dignissimos, distinctio voluptas unde fuga deserunt
+            deleniti? Corrupti, et.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-map fa-3x my-3"></i>
+          <h3 class="my-3">Blogger de viajes</h3>
+          <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus iusto placeat aspernatur quod, sunt vitae soluta
+            doloremque! Omnis at voluptas ea, ipsam dolores architecto iusto non
+            quasi explicabo voluptatibus quisquam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--grilla 12 columnas  12 - 6 6
+    4 4 4 - 3 3 3 3 - 2 2 2 2 2 2
+    1 1 1 1 1 1 1 1 1 1 1 1 
+    sección trabajos  background color que ocupa todo el
+  ancho de la pantalla -->
+
+    <section class="container-fluid my-5 p-5 bg-info" id="work">
+      <h2 class="display-4 text-center font-weight-bold mb-3 text-light">
+        Mis trabajos
+      </h2>
+      <div class="card-deck">
+        <div class="card">
+          <!--ruta -->
+          <img
+            src="assets/img/card-1.jpg"
+            class="card-img-top"
+            alt="Card image cap"
+          />
+
+          <div class="card-body">
+            <h5 class="card-title">Asado en la patagonia</h5>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+              blanditiis ipsam, nesciunt aspernatur eius ad adipisci assumenda
+              quidem consequatur est iure eum molestias tenetur vero dolorum
+              labore quod nulla hic.
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-info"
+              data-toggle="modal"
+              data-target="#asado"
+            >
+              Ver más
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/card-2.jpg"
+            class="card-img-top"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Papas del fin del mundo</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+              similique asperiores vitae rerum, voluptatibus dolorum blanditiis
+              voluptate soluta minima dolorem animi corrupti aliquid, harum
+              distinctio eveniet expedita fugit, facere obcaecati.
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-info"
+              data-toggle="modal"
+              data-target="#papas"
+            >
+              Ver más
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/card-3.jpg"
+            class="card-img-top"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Salmones de Alaska</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              quisquam et aliquam pariatur excepturi voluptates. Corrupti
+              exercitationem eius, et temporibus magni expedita est laudantium
+              itaque doloremque quam? Nemo, molestiae architecto.
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-info"
+              data-toggle="modal"
+              data-target="#salmones"
+            >
+              Ver más
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--ID ASADO  MODAL DE BOOTSTRAP -->
+    <div class="modal" id="asado" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Asado en la patagonia</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mb-3"
+              src="assets/img/card-1.jpg"
+              alt="papas"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui odit
+              quidem nostrum delectus numquam, sequi exercitationem nesciunt
+              esse rerum tempore fuga. Consequuntur quasi ea delectus
+              voluptates, consequatur magnam nobis magni.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ex
+              blanditiis porro totam sapiente aspernatur fuga. Excepturi,
+              tempora. Consectetur voluptatem corrupti praesentium error ducimus
+              inventore molestiae commodi labore soluta ex.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              impedit, fugiat assumenda eveniet, saepe molestias voluptatibus
+              non dolore odio voluptatum possimus cumque aliquam consequatur
+              rerum ad minima! Deserunt, ex reiciendis?
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="papas" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Papas del fin del mundo</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mb-3"
+              src="assets/img/card-2.jpg"
+              alt="papas"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui odit
+              quidem nostrum delectus numquam, sequi exercitationem nesciunt
+              esse rerum tempore fuga. Consequuntur quasi ea delectus
+              voluptates, consequatur magnam nobis magni.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ex
+              blanditiis porro totam sapiente aspernatur fuga. Excepturi,
+              tempora. Consectetur voluptatem corrupti praesentium error ducimus
+              inventore molestiae commodi labore soluta ex.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              impedit, fugiat assumenda eveniet, saepe molestias voluptatibus
+              non dolore odio voluptatum possimus cumque aliquam consequatur
+              rerum ad minima! Deserunt, ex reiciendis?
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="salmones" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Salmones de Alaska</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mb-3"
+              src="assets/img/card-3.jpg"
+              alt="papas"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui odit
+              quidem nostrum delectus numquam, sequi exercitationem nesciunt
+              esse rerum tempore fuga. Consequuntur quasi ea delectus
+              voluptates, consequatur magnam nobis magni.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ex
+              blanditiis porro totam sapiente aspernatur fuga. Excepturi,
+              tempora. Consectetur voluptatem corrupti praesentium error ducimus
+              inventore molestiae commodi labore soluta ex.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              impedit, fugiat assumenda eveniet, saepe molestias voluptatibus
+              non dolore odio voluptatum possimus cumque aliquam consequatur
+              rerum ad minima! Deserunt, ex reiciendis?
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--sección contacto y formulario-->
+    <section id="contact" class="container my-5">
+      <!-- tamaño: display-3 
+        valor de bold: font-weight-bold
+        centrar la fuente: text-center
+        márgenes: my-4-->
+      <h2 class="display-3 font-weight-bold text-center my-4">Contáctame</h2>
+      <p class="text-center my-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At culpa
+        corporis nisi tempore, saepe sed rem natus eaque minima! Beatae sapiente
+        eos dicta eaque fuga inventore, culpa quibusdam tenetur placeat!
+      </p>
+
+      <div
+        class="typeform-widget"
+        data-url="https://constanzamoralesa.typeform.com/to/oHQfrD"
+        style="width: 100%; height: 500px;"
+      ></div>
+      <script>
+        (function() {
+          var qs,
+            js,
+            q,
+            s,
+            d = document,
+            gi = d.getElementById,
+            ce = d.createElement,
+            gt = d.getElementsByTagName,
+            id = "typef_orm",
+            b = "https://embed.typeform.com/";
+          if (!gi.call(d, id)) {
+            js = ce.call(d, "script");
+            js.id = id;
+            js.src = b + "embed.js";
+            q = gt.call(d, "script")[0];
+            q.parentNode.insertBefore(js, q);
+          }
+        })();
+      </script>
+      <div
+        style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"
+      >
+        powered by
+        <a
+          href="https://admin.typeform.com/signup?utm_campaign=oHQfrD&utm_source=typeform.com-01E4X028QMFZK8B9MM5F91Y4AS-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
+          style="color: #999"
+          target="_blank"
+          >Typeform</a
+        >
+      </div>
+    </section>
+    <!--footer-->
+
+    <footer class="bg-dark text-center text-light p-3">
+      <p>Olivia Ros 2019. Todos los derechos reservados.</p>
+    </footer>
+
+    <!--JQuery 3.4.1 sin slim-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Popper JS 1.16.0 libreria de js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <!---bootstrap JS 4.4.1-->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
